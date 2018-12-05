@@ -9,15 +9,12 @@ final class HomeController {
 
     @GetMapping("/")
     String index(){
-
-        return "Learning Spring Bootr";
+        return "Learning Spring Boot";
     }
 
     @GetMapping("/learn-spring-boot")
     String learn(){
-
         return "WTF";
-
     }
 
 }

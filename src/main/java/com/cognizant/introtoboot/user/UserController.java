@@ -30,6 +30,7 @@ public class UserController {
     @GetMapping(value = {"/me/","/me/{name}"})
     UserModel getMyProperty(@PathVariable("name") final Optional<Integer> index) {
         return users.get(index.orElse(0));
-
     }
+
+
 }
